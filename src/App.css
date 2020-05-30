@@ -1,0 +1,126 @@
+html {
+  background-color: #f2f2f2;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 100vh;
+  overflow-x: hidden;
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  max-width: 750px;
+  margin: auto;
+}
+
+.logo {
+  font-size: 2.5rem;
+}
+
+.container {
+  padding: 1rem 3rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 1rem;
+  border: 2px solid #d9d9d9;
+  margin: 1rem 0;
+}
+
+.heading {
+  font-size: 1.75rem;
+  padding: 0.5rem 1rem;
+  font-weight: bolder;
+}
+
+.gender {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.all-countries {
+  display: flex;
+  flex-wrap: wrap;
+  place-items: center center;
+  justify-content: center;
+}
+
+.country {
+  background-color: lightgray;
+  margin: 5px;
+  padding: 0.5rem;
+  border-radius: 50px;
+}
+
+.color-container {
+  display: flex;
+  justify-content: center;
+}
+
+.color {
+  content: " ";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin: 0.5rem 0.3rem;
+}
+
+.car-container {
+  display: flex;
+}
+.car-wrapper {
+  display: flex;
+  align-items: center;
+}
+.car {
+  width: 270px;
+  height: 210px;
+  justify-content: center;
+  border-radius: 1rem;
+  margin-right: 1.5rem;
+  object-fit: cover;
+}
+
+.car-details {
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+}
+
+.model {
+  display: flex;
+  margin: 0.5rem 0;
+}
+.model-item {
+  display: flex;
+  flex-direction: column;
+  padding-right: 1rem;
+  justify-content: space-between;
+}
+.bio-container {
+  margin-bottom: 0.5rem;
+}
+.label {
+  margin-right: 0.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.label-text {
+  color: grey;
+}
+
+.color-details {
+  width: 12px;
+  height: 12px;
+}
+
+ul {
+  list-style: none; /* Remove HTML bullets */
+  padding: 0;
+  margin: 0;
+}
